@@ -8,3 +8,58 @@ html {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
+
+body {
+  margin: 0;
+}
+
+main {
+  margin: 5.5rem auto;
+}
+
+.header {
+  background-color: #546248;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  border: 2px solid #000;
+  overflow: hidden;
+  margin: 1rem auto;
+}
+
+.card__img {
+  margin: 0 auto;
+  object-fit: cover;
+  height: 80%;
+}
+
+.card__title {
+  margin: auto 0;
+  padding: 4px;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.footer {
+  background-color: lightgray;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}

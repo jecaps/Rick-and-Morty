@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/src/styles/index.css" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <header>
-      <h1>Hello World</h1>
-    </header>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/src/styles/index.css" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <header class="header">
+
+    <h1 class="header__logo">Rick and Morty</h1>
+
+    <form action="" data-js="form">
+      <select name="status" id="status" class="">
+        <option value="" hidden>-Choose Status-</option>
+        <option value="dead">Dead</option>
+        <option value="alive">Alive</option>
+        <option value="unknown">Unknown</option>
+      </select>
+      <input type="text" name="input" />
+      <button type="submit">Search</button>
+    </form>
+
+  </header>
+
+  <main class="main">
+  </main>
+
+  <footer class="footer">
+    <p>Made by Jerika with love</p>
+  </footer>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
 </html>
